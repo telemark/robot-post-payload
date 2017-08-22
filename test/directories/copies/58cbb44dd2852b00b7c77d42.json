@@ -1,0 +1,9 @@
+{
+  "_id": "1234",
+  "system": "MinElev",
+  "jobId": "599ac794ea18620076548d97",
+  "url": "https://echo.mikrotjeneste.win",
+  "payload": {
+    "status": "Send via SvarUt"
+  }
+}
