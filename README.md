@@ -4,13 +4,14 @@
 
 # robot-post-payload
 
-Robot for posting payloads from json-files
+Robot for posting payloads from json-files.
 
 ## API
 
 ```
+// 58cbb44dd2852b00b7c77d42.json
 {
-  "_id": "1234",
+  "_id": "58cbb44dd2852b00b7c77d42",
   "system": "MinElev",
   "jobId": "599ac794ea18620076548d97",
   "url": "https://echo.mikrotjeneste.win",
@@ -20,7 +21,7 @@ Robot for posting payloads from json-files
 }
 ```
 
-*_id* - unique ID, will be used for filename
+*_id* - unique ID, must match filename (<_id>.json)
 *url* - where to post
 *payload* - what to post, must be json
 *system* - optional
