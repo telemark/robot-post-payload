@@ -44,7 +44,7 @@
     "standard": "10.0.3"
   },
   "dependencies": {
-    "axios": "0.16.2",
+    "axios": "0.17.0",
     "jsonwebtoken": "8.1.0",
     "winston": "3.0.0-rc0",
     "winston-papertrail": "1.0.5"
