@@ -40,7 +40,7 @@
     "ava": "0.23.0",
     "coveralls": "2.13.3",
     "nsp": "2.8.1",
-    "nyc": "11.1.0",
+    "nyc": "11.3.0",
     "standard": "10.0.3"
   },
   "dependencies": {
