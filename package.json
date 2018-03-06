@@ -11,7 +11,7 @@
   },
   "main": "index.js",
   "engines": {
-    "node": ">=8.4.0"
+    "node": ">=8.9.4"
   },
   "scripts": {
     "test": "standard && nsp check && ava",
@@ -19,7 +19,8 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "start": "node index.js"
+    "start": "node index.js",
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "keywords": [
     "tfk",
@@ -30,15 +31,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/telemark/robot-post-payload"
+    "url": "git+https://github.com/telemark/robot-post-payload"
   },
   "bugs": {
     "url": "https://github.com/telemark/robot-post-payload/issues"
   },
-  "homepage": "https://github.com/telemark/robot-post-payload",
+  "homepage": "https://github.com/telemark/robot-post-payload#readme",
   "devDependencies": {
     "ava": "0.25.0",
-    "coveralls": "2.13.3",
+    "coveralls": "3.0.0",
     "nsp": "3.2.1",
     "nyc": "11.4.1",
     "standard": "11.0.0"
