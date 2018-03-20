@@ -1,5 +1,3 @@
-'use strict'
-
 const checkRetries = require('./lib/steps/check-retries')
 const getNextJobFromQueue = require('./lib/steps/get-next-job-from-queue')
 const getFileData = require('./lib/steps/get-file-data')
