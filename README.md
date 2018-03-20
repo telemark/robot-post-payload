@@ -4,7 +4,7 @@
 
 # robot-post-payload
 
-Robot for posting payloads from json-files.
+Robot for posting or putting payloads from json-files.
 
 ## API
 
@@ -14,7 +14,8 @@ Robot for posting payloads from json-files.
   "_id": "58cbb44dd2852b00b7c77d42",
   "system": "MinElev",
   "jobId": "599ac794ea18620076548d97",
-  "url": "https://echo.mikrotjeneste.win",
+  "url": "https://httpbin.org/anything",
+  "method": "PUT",
   "payload": {
     "status": "Send via SvarUt"
   }
@@ -22,8 +23,9 @@ Robot for posting payloads from json-files.
 ```
 
 *_id* - unique ID, must match filename (<_id>.json)
-*url* - where to post
-*payload* - what to post, must be json
+*url* - where to post/put
+*method* - POST or PUT, optional, defaults to POST
+*payload* - what to post/put, must be json
 *system* - optional
 *jobId* - optional
 
