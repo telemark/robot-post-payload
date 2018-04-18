@@ -1,5 +1,6 @@
-'use strict'
-
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').config()
+}
 module.exports = {
   DONE_DIRECTORY_PATH: process.env.DONE_DIRECTORY_PATH || 'test/directories/done',
   ERRORS_DIRECTORY_PATH: process.env.ERRORS_DIRECTORY_PATH || 'test/directories/errors',

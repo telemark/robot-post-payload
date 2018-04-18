@@ -1,5 +1,5 @@
-# Setting the base to nodejs 8.10.0
-FROM node:8.10.0-alpine
+# Setting the base to nodejs 8.11.0
+FROM node:8.11.1-alpine
 
 #### Begin setup ####
 
