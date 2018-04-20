@@ -1,10 +1,16 @@
-[![Build Status](https://travis-ci.org/telemark/robot-post-json.svg?branch=master)](https://travis-ci.org/telemark/robot-post-payload)
+[![Build Status](https://travis-ci.org/telemark/robot-post-payload.svg?branch=master)](https://travis-ci.org/telemark/robot-post-payload)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/robot-post-json.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/robot-post-payload.svg)](https://greenkeeper.io/)
 
 # robot-post-payload
 
 Robot for posting or putting payloads from json-files.
+
+- It will pick a file from the queue directory
+- POST or PUT the payload to a given url
+- Add the response to the jsonfile
+- Save the file in the done directory
+- Delete the file from queue
 
 ## API
 
