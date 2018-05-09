@@ -1,5 +1,5 @@
 # Setting the base to nodejs 10.0.0
-FROM node:10.0.0-alpine@sha256:9a0c2f5f16a4ae7b943d711b6c0238b32fc91bc5503ca8a16a8500bfa18022aa
+FROM node:10.1.0-alpine@sha256:3b0e27010a4b643cc67154381f0f8df74d9aa0d048222f0442428faefa248372
 
 #### Begin setup ####
 
