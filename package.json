@@ -47,7 +47,7 @@
   "dependencies": {
     "axios": "0.18.0",
     "dotenv": "5.0.1",
-    "jsonwebtoken": "8.2.1",
+    "jsonwebtoken": "8.2.2",
     "winston": "2.4.2",
     "winston-papertrail": "1.0.5"
   }
