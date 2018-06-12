@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/telemark/robot-post-payload.svg?branch=master)](https://travis-ci.com/telemark/robot-post-payload)
+[![Build Status](https://travis-ci.org/telemark/robot-post-payload.svg?branch=master)](https://travis-ci.org/telemark/robot-post-payload)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 # robot-post-payload
@@ -44,6 +44,8 @@ ERRORS_DIRECTORY_PATH=test/directories/errors
 QUEUE_DIRECTORY_PATH=test/directories/queue
 RETRY_DIRECTORY_PATH=test/directories/retries
 JWT_SECRET=Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go
+AUTH_USERNAME=YourUserName #Optional - use this if you need it drop it if not
+AUTH_PASSWORD=YourPassword #Optional - use this if you need it drop it if not
 PAPERTRAIL_HOSTNAME=robot-post
 PAPERTRAIL_HOST=logs.papertrailapp.com
 PAPERTRAIL_PORT=12345
