@@ -19,9 +19,9 @@
     "coverage": "nyc ava",
     "coveralls": "nyc ava && nyc report --reporter=lcov && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "start": "node index.js",
+    "single": "node index.js",
     "refresh": "rm -rf node_modules && rm package-lock.json && npm install",
-    "runner": "node runner.js"
+    "start": "node runner.js"
   },
   "keywords": [
     "tfk",
