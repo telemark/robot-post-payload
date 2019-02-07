@@ -48,7 +48,7 @@
     "axios": "0.18.0",
     "dotenv": "6.2.0",
     "jsonwebtoken": "8.4.0",
-    "winston": "2.4.4",
+    "winston": "3.2.1",
     "winston-papertrail": "1.0.5"
   }
 }
