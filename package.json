@@ -1,7 +1,7 @@
 {
   "name": "robot-post-payload",
   "description": "Robot for posting payloads",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "license": "MIT",
   "private": true,
   "author": {
