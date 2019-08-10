@@ -68,5 +68,3 @@ This will start a container. Do the job. Stop the container and remove it.
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of robot-post-payload](https://robots.kebabstudios.party/robot-post-payload.png "Robohash image of robot-post-payload")
