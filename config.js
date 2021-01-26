@@ -7,6 +7,8 @@ module.exports = {
   QUEUE_DIRECTORY_PATH: process.env.QUEUE_DIRECTORY_PATH || 'test/directories/queue',
   RETRY_DIRECTORY_PATH: process.env.RETRY_DIRECTORY_PATH || 'test/directories/retries',
   JWT_SECRET: process.env.JWT_SECRET || 'Louie Louie, oh no, I got to go Louie Louie, oh no, I got to go',
+  JWT_SECRET_1: process.env.JWT_SECRET_1 || false,
+  JWT_URL_1: process.env.JWT_URL_1 || false,
   AUTH_USERNAME: process.env.AUTH_USERNAME || false,
   AUTH_PASSWORD: process.env.AUTH_PASSWORD || false,
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'robot-post',
