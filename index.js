@@ -7,7 +7,7 @@ const saveToDone = require('./lib/steps/save-to-done')
 const saveToErrors = require('./lib/steps/save-to-errors')
 const saveToRetries = require('./lib/steps/save-to-retries')
 const removeFromQueue = require('./lib/steps/remove-from-queue')
-const logger = require('./lib/logger')
+const { logger } = require('@vtfk/logger')
 
 logger('info', ['index', 'start'])
 
