@@ -49,6 +49,7 @@ AUTH_PASSWORD=YourPassword #Optional - use this if you need it drop it if not
 PAPERTRAIL_HOSTNAME=robot-post
 PAPERTRAIL_HOST=logs.papertrailapp.com
 PAPERTRAIL_PORT=12345
+RETRY_MAX_COUNT=3 #Optional. Will default to 3. After all failed retry attempts, file will be saved to errors
 ```
 
 ## Build
