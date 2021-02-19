@@ -16,7 +16,7 @@ async function checkQueue () {
   const job = await gotJobs()
   if (job === true) {
     console.log('Here we go')
-    const cmd = `node index.js`
+    const cmd = 'node index.js'
     const { stdout, stderr } = await exec(cmd)
     console.log(stdout)
     console.error(stderr)

@@ -13,5 +13,6 @@ module.exports = {
   AUTH_PASSWORD: process.env.AUTH_PASSWORD || false,
   PAPERTRAIL_HOSTNAME: process.env.PAPERTRAIL_HOSTNAME || 'robot-post',
   PAPERTRAIL_HOST: process.env.PAPERTRAIL_HOST || 'logs.papertrailapp.com',
-  PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345
+  PAPERTRAIL_PORT: process.env.PAPERTRAIL_PORT || 12345,
+  RETRY_MAX_COUNT: process.env.RETRY_MAX_COUNT || 3
 }
